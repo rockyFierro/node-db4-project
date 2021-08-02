@@ -22,7 +22,7 @@ const step_ingredients = [
   {step_id: 3,ingredient_id: 1,quantity:23 },
   //shrimp
   {step_id: 1,ingredient_id: 6,quantity:41 },
-]
+];
 
 const steps = [
   //butternut squash
@@ -37,7 +37,7 @@ const steps = [
   { step_text: 'Anger flour', step_number: 1, recipe_id: 3 },
   { step_text: 'Light barbequeeuea', step_number: 2, recipe_id: 3 },
   { step_text: 'Order pizza', step_number: 3, recipe_id: 3 },
-]
+];
 
 exports.seed = async function (knex) {
   await knex('recipes').insert(recipes);
